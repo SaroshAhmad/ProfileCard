@@ -51,16 +51,36 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #333;
 }
 
-.name {
+.text-data .name {
+    font-size: 22px;
     font-weight: 700;
-    /* Example weight from Roboto */
-    margin-bottom: 5px;
 }
 
-.job {
+.text-data .job {
+    font-size: 15px;
     font-weight: 400;
-    /* Example weight from Roboto */
-    color: #777;
+}
+
+.profile-card .media-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.media-buttons .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 0 8px;
+    background-color: #4070f4;
+    text-decoration: none;
+
 }
